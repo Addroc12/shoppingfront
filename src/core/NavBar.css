@@ -1,0 +1,105 @@
+/* .n {
+    list-style-type: none;
+    display: flex;
+    background-color: black;
+    
+}*/
+form .c{
+    margin-top: 20px;
+}
+
+.contaiiner{
+   background-color: brown;
+   
+   border-bottom-left-radius:30px ;
+}
+.ull{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom-left-radius:30px;
+  background-color:#5c30d9;
+  border: 1px solid #5c30d9;
+  box-shadow: 1px 1px 10px 8px #3939a3;
+  color:white;
+   position:fixed;
+   z-index:99999999;
+   width:100%;
+   height: 50px;
+   margin:0px;
+   top:-0px;
+}
+
+body{
+    background-image: linear-gradient( to right, rgb(82, 125, 219), rgb(235, 113, 229));
+   
+   
+}
+.header{
+    background: -webkit-linear-gradient( #ffffff, #d1e5e9);
+  -webkit-background-clip: text;
+  background-clip:text ;
+  -webkit-text-fill-color: transparent;
+    font-family: 'Acme', sans-serif;
+ 
+  }
+  .headers{
+    background: -webkit-linear-gradient( #c471ed, #12c2e9);
+  -webkit-background-clip: text;
+  background-clip:text ;
+  -webkit-text-fill-color: transparent;
+    font-family: 'Acme', sans-serif;
+ 
+  }
+
+
+.b{
+    font-family: 'Merienda', cursive;
+    margin-left: 10px;
+    
+    margin-bottom:0px;
+    border-radius:5px;
+    color: white;
+    font-size:16px;
+    border-radius:20px;
+    margin-top:16px;
+    padding: 5px;
+    background-image: linear-gradient(to  bottom right, #c471ed, #12c2e9);
+  }
+  .b span {
+      color: white;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .b span:after {
+  color: white;
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right:-20px;
+  transition: 0.5s;
+  }
+
+  .b:hover span {
+  color: white;
+  padding-right: 25px;
+  }
+
+  .b:hover span:after {
+  opacity: 1;
+  right: 0;
+  }
+  .end{
+    background-color:#5c30d9;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    background-color:#5c30d9;
+    border: 1px solid #5c30d9;
+    box-shadow: 1px 1px 10px 8px #3939a3;
+    margin-top:50px;
+        text-align: center;
+        padding-top:40px;
+        padding-bottom:40px;
+  }
